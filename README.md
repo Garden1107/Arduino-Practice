@@ -6,39 +6,39 @@ Arduino practice projects and experiments while learning embedded systems.
 
 ## Contents / 구성
 
+### Basic I/O & PWM
 * Digital I/O and basic control
   디지털 입출력 및 기본 제어
-
 * LED brightness control and PWM
   LED 밝기 조절 및 PWM
-
 * RGB LED color control
   RGB LED 색상 제어
 
-* Analog input and sensor reading
-  아날로그 입력 및 센서값 읽기
-
+### Sensors & Analog Input
+* Analog input and ADC
+  아날로그 입력 및 ADC
+* CdS light sensor and LED brightness control
+  CdS 조도센서를 이용한 LED 밝기 제어
+* DHT11 temperature and humidity sensing
+  DHT11 온습도 센서 활용
 * Sensor value mapping and PWM control
   센서값 변환 및 PWM 제어
 
-* Piezo buzzer and melody playback
-  피에조 부저 및 음계 재생
-
-* Servo motor control
-  서보모터 제어
-
+### Communication & Output
+* Serial communication and control
+  시리얼 통신 및 제어
+* I2C LCD display
+  I2C LCD 출력
 * IR remote control
   적외선 리모컨 수신 및 제어
 
-* DHT11 temperature and humidity sensing
-  DHT11 온습도 센서 활용
+### Actuators
+* Servo motor control
+  서보모터 제어
+* Piezo buzzer and melody playback
+  피에조 부저 및 음계 재생
 
-* I2C LCD display
-  I2C LCD 출력
-
-* Serial communication and control
-  시리얼 통신 및 제어
-
+### Integrated Practice
 * Sensor and input-based control experiments
   센서 및 입력 장치를 활용한 간단한 제어 실습
 
