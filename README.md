@@ -7,6 +7,7 @@ Arduino practice projects and experiments while learning embedded systems.
 ## Contents / 구성
 
 ### Basic I/O & PWM
+
 * Digital I/O and basic control
   디지털 입출력 및 기본 제어
 * LED brightness control and PWM
@@ -15,6 +16,7 @@ Arduino practice projects and experiments while learning embedded systems.
   RGB LED 색상 제어
 
 ### Sensors & Analog Input
+
 * Analog input and ADC
   아날로그 입력 및 ADC
 * CdS light sensor and LED brightness control
@@ -25,6 +27,7 @@ Arduino practice projects and experiments while learning embedded systems.
   센서값 변환 및 PWM 제어
 
 ### Communication & Output
+
 * Serial communication and control
   시리얼 통신 및 제어
 * I2C LCD display
@@ -32,21 +35,38 @@ Arduino practice projects and experiments while learning embedded systems.
 * IR remote control
   적외선 리모컨 수신 및 제어
 
+### Timing & State Control
+
+* Non-blocking timing using `millis()`
+  `millis()`를 이용한 비블로킹 타이밍 제어
+* LED blinking with independent intervals
+  서로 다른 주기의 LED 깜빡임 제어
+* Button state detection and event handling
+  버튼 상태 감지 및 입력 이벤트 처리
+* Button-controlled LED modes
+  버튼 입력에 따른 LED 모드 전환
+* State and mode-based control experiments
+  상태 및 모드 기반 제어 실습
+
 ### Actuators
+
 * Servo motor control
   서보모터 제어
 * Piezo buzzer and melody playback
   피에조 부저 및 음계 재생
 
 ### Integrated Practice
+
 * Sensor and input-based control experiments
   센서 및 입력 장치를 활용한 간단한 제어 실습
+* FloodGuard — Arduino-based flood monitoring prototype
+  FloodGuard — 아두이노 기반 침수 감지 프로토타입
 
 ## Purpose / 목적
 
-This repository contains Arduino practice projects created while learning the basics of sensors, input/output, communication, and embedded systems.
+This repository contains Arduino practice projects created while learning the basics of sensors, input/output, timing, communication, and embedded systems.
 
-센서, 입출력, 통신 및 임베디드 시스템의 기본적인 동작 원리를 학습하며 진행한 아두이노 실습 및 간단한 프로젝트를 정리하는 것을 목적으로 합니다.
+센서, 입출력, 타이밍 제어, 통신 및 임베디드 시스템의 기본적인 동작 원리를 학습하며 진행한 아두이노 실습 및 간단한 프로젝트를 정리하는 것을 목적으로 합니다.
 
 ## Notes / 참고사항
 
